@@ -38,6 +38,7 @@ export type Activity = {
   activityPlaceName: string
   activityDetail: string
   activityExpense: number
+  category?: string
 }
 
 export type Day = {

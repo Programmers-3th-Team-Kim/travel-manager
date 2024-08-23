@@ -17,6 +17,7 @@ export const dummyDays: DaysResDto = [
         activityPlaceName: 'Tokyo Tower',
         activityDetail: 'Sightseeing at the iconic Tokyo Tower.',
         activityExpense: 50,
+        category: '활동',
       },
       {
         id: 'activity-2',

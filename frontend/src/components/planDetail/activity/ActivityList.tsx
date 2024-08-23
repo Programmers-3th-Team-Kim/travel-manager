@@ -1,3 +1,5 @@
+import { useState } from 'react'
+
 import { Activity } from '@/types/plan'
 
 import ActivityItem from './ActivityItem'
@@ -7,10 +9,16 @@ type Props = {
 }
 
 function ActivityList({ activities }: Props) {
+  const [editingActivityId, setEditingActivityId] = useState('')
   return (
     <div>
       {activities.map((activity) => (
-        <ActivityItem key={activity.id} />
+        <ActivityItem
+          key={activity.id}
+          activity={activity}
+          editingActivityId={editingActivityId}
+          setEditingActivityId={setEditingActivityId}
+        />
       ))}
     </div>
   )

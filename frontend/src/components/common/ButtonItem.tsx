@@ -1,6 +1,6 @@
 type Props = {
   name: string
-  color: string
+  color?: string
   onClick: () => void
 }
 const ButtonItem = ({ name, color, onClick }: Props) => {
