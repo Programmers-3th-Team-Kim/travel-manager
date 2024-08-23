@@ -27,6 +27,7 @@ export const dummyDays: DaysResDto = [
         activityPlaceName: 'Sushi Zanmai',
         activityDetail: 'Enjoying traditional sushi.',
         activityExpense: 30,
+        category: '점심',
       },
       {
         id: 'activity-3',
@@ -36,6 +37,7 @@ export const dummyDays: DaysResDto = [
         activityPlaceName: 'Asakusa',
         activityDetail: 'Exploring the historic temple.',
         activityExpense: 20,
+        category: '활동',
       },
     ],
   },
@@ -55,6 +57,7 @@ export const dummyDays: DaysResDto = [
         activityPlaceName: 'Fushimi Inari',
         activityDetail: 'Walking through the famous Torii gates.',
         activityExpense: 0,
+        category: '활동',
       },
       {
         id: 'activity-5',
@@ -64,6 +67,7 @@ export const dummyDays: DaysResDto = [
         activityPlaceName: 'Nishiki Market',
         activityDetail: 'Tasting local street food.',
         activityExpense: 25,
+        category: '점심',
       },
       {
         id: 'activity-6',
@@ -73,6 +77,7 @@ export const dummyDays: DaysResDto = [
         activityPlaceName: 'Kiyomizu-dera',
         activityDetail: 'Exploring the famous temple with a view.',
         activityExpense: 20,
+        category: '활동',
       },
     ],
   },
@@ -92,6 +97,7 @@ export const dummyDays: DaysResDto = [
         activityPlaceName: 'Osaka Castle',
         activityDetail: 'Exploring the historic castle and park.',
         activityExpense: 25,
+        category: '활동',
       },
       {
         id: 'activity-8',
@@ -101,6 +107,7 @@ export const dummyDays: DaysResDto = [
         activityPlaceName: 'Dotonbori',
         activityDetail: 'Enjoying Takoyaki and Okonomiyaki.',
         activityExpense: 35,
+        category: '점심',
       },
       {
         id: 'activity-9',
@@ -110,6 +117,7 @@ export const dummyDays: DaysResDto = [
         activityPlaceName: 'Universal Studios Japan',
         activityDetail: 'Experiencing theme park attractions.',
         activityExpense: 100,
+        category: '활동',
       },
     ],
   },
