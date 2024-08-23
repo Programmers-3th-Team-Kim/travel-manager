@@ -11,7 +11,7 @@ type Props = {
 function ActivityList({ activities }: Props) {
   const [editingActivityId, setEditingActivityId] = useState('')
   return (
-    <div>
+    <div className="text-sm">
       {activities.map((activity) => (
         <ActivityItem
           key={activity.id}
