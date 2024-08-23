@@ -194,7 +194,7 @@ function ActivityItem({ activity }: Props) {
   }
 
   return (
-    <div className="text-s mb-3 max-w-md rounded-lg border border-gray-300 bg-gray-100 p-4">
+    <div className="text-s mb-3 max-w-md rounded-lg bg-gray-50 p-4 shadow-container">
       <div className="flex justify-end space-x-2">
         <button onClick={handleEditClick}>
           <FiEdit3 />
