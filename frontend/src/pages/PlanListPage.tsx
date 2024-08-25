@@ -7,7 +7,7 @@ import { PiMapPinAreaBold } from 'react-icons/pi'
 import { RiArrowRightDoubleFill } from 'react-icons/ri'
 import { Link } from 'react-router-dom'
 
-import { fetchPlans } from '@/api/plans.api'
+import { fetchPlans } from '@/api/plans'
 import { PlanInfo } from '@/components/addPlan/PlanInfo'
 import { Plan } from '@/models/plan.model'
 import { routes } from '@/routes'
